@@ -6,7 +6,7 @@ Usage:
 HEREDOC
 `
 CDDMAN_LIST_FILL=`printf "%0.1s" -{0..80}`
-CDDMAN_LIST_FMT="`tput bold`%s`tput sgr0`%0.*s---> %s\n"
+CDDMAN_LIST_FMT="`tput bold`%s`tput sgr0` %0.*s---> %s\n"
 
 function cdd-manager() {
   case "$1" in
