@@ -2,6 +2,10 @@
 
 *Change Directory Directly*
 
+## Demo
+
+![Demo image](demo.png)
+
 ## Features
 
 - jump to your favorite directory in a moment (wherever you are)
