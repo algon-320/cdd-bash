@@ -52,7 +52,7 @@ function cdd-manager() {
 
       for f in ${links[@]}; do
         local name=$(basename "$f")
-        local p=$(readlink -f "$f")
+        local p=$(readlink -f "${CDD_DIR}/$f")
         printf "$CDDMAN_LIST_FMT" "$name" $((max_len - ${#f})) "$CDDMAN_LIST_FILL" "$p"
       done
     ;;
